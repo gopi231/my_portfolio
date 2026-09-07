@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kojja Gopi — Full-Stack Developer &amp; Freelance Web Specialist</title>
+<meta name="description" content="Kojja Gopi is a Full-Stack Developer and Freelance Web Specialist based in Guntur, India, building custom MERN, Next.js, PHP and Django web applications.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ HEADER / NAVBAR ============ -->
+<header class="site-header" id="top">
+  <div class="header-inner">
+    <a href="#top" class="brand">KG<span class="brand-dot">.</span></a>
+
+    <nav class="main-nav" id="main-nav">
+      <a href="#top" class="nav-link">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#stack" class="nav-link">Tech Stack</a>
+      <a href="#demos" class="nav-link">Live Demos</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light theme" aria-pressed="false">
+        <span class="theme-toggle-track">
+          <span class="theme-toggle-thumb"></span>
+        </span>
+      </button>
+      <button class="nav-burger" id="nav-burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <div class="hero-inner">
+      <p class="hero-kicker">Guntur, Andhra Pradesh, India — open for freelance work</p>
+      <h1 class="hero-title">
+        I build fast, custom web
+        applications for clients who need
+        <span class="hero-role-line">a <span id="typed-role" class="typed-role">MERN Stack Developer</span><span class="typed-cursor" aria-hidden="true"></span></span>
+      </h1>
+      <p class="hero-lede">
+        I'm Kojja Gopi — a full-stack developer who designs, builds and ships production-ready
+        websites and dashboards end to end: from database schema to the pixel on screen.
+        I work directly with clients to turn a brief into a live, working product.
+      </p>
+      <div class="hero-actions">
+        <a href="#demos" class="btn btn-primary">View Demos</a>
+        <a href="#contact" class="btn btn-outline">Hire Me</a>
+      </div>
+      <dl class="hero-stats">
+        <div class="hero-stat">
+          <dt>Stack</dt>
+          <dd>MERN · Next.js · PHP · Django</dd>
+        </div>
+        <div class="hero-stat">
+          <dt>Live demos</dt>
+          <dd>3 shipped client templates</dd>
+        </div>
+        <div class="hero-stat">
+          <dt>Based in</dt>
+          <dd>Guntur, India</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="about" id="about">
+    <div class="section-inner about-grid">
+      <div class="about-copy">
+        <p class="section-label">About</p>
+        <h2 class="section-title">One developer, the whole stack.</h2>
+        <p>
+          I'm a full-stack developer and freelance web specialist working across the MERN stack,
+          Next.js, PHP and Django. I take projects from a client conversation through to a deployed,
+          maintainable product — handling the database design, the API, and the interface myself,
+          so nothing gets lost in translation between teams.
+        </p>
+        <p>
+          Most of my work is for small businesses and teams who need something specific built for
+          how they actually operate — a restaurant ordering flow, a hospital's patient records, a
+          school's administration — rather than a generic template stretched to fit.
+        </p>
+        <a href="#contact" class="text-link">Start a project →</a>
+      </div>
+      <div class="about-facts">
+        <div class="fact-card">
+          <span class="fact-label">Location</span>
+          <span class="fact-value">Guntur, Andhra Pradesh, India</span>
+        </div>
+        <div class="fact-card">
+          <span class="fact-label">Email</span>
+          <a class="fact-value fact-link" href="mailto:gopikavadi3@gmail.com">gopikavadi3@gmail.com</a>
+        </div>
+        <div class="fact-card">
+          <span class="fact-label">Phone</span>
+          <a class="fact-value fact-link" href="tel:+918639641523">+91 86396 41523</a>
+        </div>
+        <div class="fact-card">
+          <span class="fact-label">GitHub</span>
+          <a class="fact-value fact-link" href="https://github.com/princeimmu40-collab" target="_blank" rel="noopener">github.com/princeimmu40-collab</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TECH STACK ============ -->
+  <section class="stack" id="stack">
+    <div class="section-inner">
+      <p class="section-label">Tech Stack</p>
+      <h2 class="section-title">Tools I build with, every day.</h2>
+
+      <div class="stack-filters" id="stack-filters" role="tablist" aria-label="Filter tech stack">
+        <button class="filter-btn is-active" data-filter="all" type="button" role="tab" aria-selected="true">All</button>
+        <button class="filter-btn" data-filter="frontend" type="button" role="tab" aria-selected="false">Frontend</button>
+        <button class="filter-btn" data-filter="backend" type="button" role="tab" aria-selected="false">Backend</button>
+        <button class="filter-btn" data-filter="database" type="button" role="tab" aria-selected="false">Databases</button>
+      </div>
+
+      <div class="stack-grid" id="stack-grid">
+        <!-- Frontend -->
+        <div class="stack-card" data-category="frontend">
+          <span class="stack-icon" aria-hidden="true">◆</span>
+          <span class="stack-name">HTML5</span>
+          <span class="stack-role">Frontend</span>
+        </div>
+        <div class="stack-card" data-category="frontend">
+          <span class="stack-icon" aria-hidden="true">◆</span>
+          <span class="stack-name">CSS3</span>
+          <span class="stack-role">Frontend</span>
+        </div>
+        <div class="stack-card" data-category="frontend">
+          <span class="stack-icon" aria-hidden="true">◆</span>
+          <span class="stack-name">JavaScript (ES6+)</span>
+          <span class="stack-role">Frontend</span>
+        </div>
+        <div class="stack-card" data-category="frontend">
+          <span class="stack-icon" aria-hidden="true">◆</span>
+          <span class="stack-name">React.js</span>
+          <span class="stack-role">Frontend</span>
+        </div>
+        <div class="stack-card" data-category="frontend">
+          <span class="stack-icon" aria-hidden="true">◆</span>
+          <span class="stack-name">Next.js</span>
+          <span class="stack-role">Frontend</span>
+        </div>
+        <div class="stack-card" data-category="frontend">
+          <span class="stack-icon" aria-hidden="true">◆</span>
+          <span class="stack-name">Tailwind CSS</span>
+          <span class="stack-role">Frontend</span>
+        </div>
+
+        <!-- Backend -->
+        <div class="stack-card" data-category="backend">
+          <span class="stack-icon" aria-hidden="true">▲</span>
+          <span class="stack-name">Node.js</span>
+          <span class="stack-role">Backend</span>
+        </div>
+        <div class="stack-card" data-category="backend">
+          <span class="stack-icon" aria-hidden="true">▲</span>
+          <span class="stack-name">Express.js</span>
+          <span class="stack-role">Backend</span>
+        </div>
+        <div class="stack-card" data-category="backend">
+          <span class="stack-icon" aria-hidden="true">▲</span>
+          <span class="stack-name">PHP</span>
+          <span class="stack-role">Backend</span>
+        </div>
+        <div class="stack-card" data-category="backend">
+          <span class="stack-icon" aria-hidden="true">▲</span>
+          <span class="stack-name">Django</span>
+          <span class="stack-role">Backend</span>
+        </div>
+
+        <!-- Databases & tools -->
+        <div class="stack-card" data-category="database">
+          <span class="stack-icon" aria-hidden="true">●</span>
+          <span class="stack-name">MongoDB</span>
+          <span class="stack-role">Database</span>
+        </div>
+        <div class="stack-card" data-category="database">
+          <span class="stack-icon" aria-hidden="true">●</span>
+          <span class="stack-name">MySQL</span>
+          <span class="stack-role">Database</span>
+        </div>
+        <div class="stack-card" data-category="database">
+          <span class="stack-icon" aria-hidden="true">●</span>
+          <span class="stack-name">Git</span>
+          <span class="stack-role">Tooling</span>
+        </div>
+        <div class="stack-card" data-category="database">
+          <span class="stack-icon" aria-hidden="true">●</span>
+          <span class="stack-name">GitHub</span>
+          <span class="stack-role">Tooling</span>
+        </div>
+      </div>
+      <p class="stack-empty" id="stack-empty" hidden>Nothing in this category yet.</p>
+    </div>
+  </section>
+
+  <!-- ============ LIVE CLIENT DEMOS ============ -->
+  <section class="demos" id="demos">
+    <div class="section-inner">
+      <p class="section-label">Live Demos</p>
+      <h2 class="section-title">Client templates, live in production.</h2>
+      <p class="section-intro">
+        Three deployed demo builds you can open and click through right now — each one a
+        self-contained template designed for a specific kind of business.
+      </p>
+
+      <div class="demo-grid">
+        <article class="demo-card">
+          <div class="demo-card-media" data-demo="restaurant">
+            <span class="demo-tag">Restaurant</span>
+          </div>
+          <div class="demo-card-body">
+            <h3>Restaurant Web Application</h3>
+            <p>A full ordering-ready restaurant site — menu browsing, table booking flow, and a
+              layout built for mobile customers scanning a QR code at the table.</p>
+            <a href="https://demo-restarent-5jfetaqp2-gopi-b1ff.vercel.app/" class="btn btn-small" target="_blank" rel="noopener">
+              View Live Demo <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="demo-card">
+          <div class="demo-card-media" data-demo="hospital">
+            <span class="demo-tag">Healthcare</span>
+          </div>
+          <div class="demo-card-body">
+            <h3>Hospital Management Portal</h3>
+            <p>A patient- and staff-facing portal for appointment scheduling, department listings
+              and records access, built for the pace of a real clinic front desk.</p>
+            <a href="https://demo-hospital-hnjv5pw7r-gopi-b1ff.vercel.app/" class="btn btn-small" target="_blank" rel="noopener">
+              View Live Demo <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="demo-card">
+          <div class="demo-card-media" data-demo="school">
+            <span class="demo-tag">Education</span>
+          </div>
+          <div class="demo-card-body">
+            <h3>School Administrative Site</h3>
+            <p>An administrative site for a school — admissions info, faculty and class listings,
+              and notices, structured for parents and staff to find things fast.</p>
+            <a href="https://demo-school-7zcapn9kb-gopi-b1ff.vercel.app/" class="btn btn-small" target="_blank" rel="noopener">
+              View Live Demo <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FEATURED PROJECTS ============ -->
+  <section class="projects" id="projects">
+    <div class="section-inner">
+      <p class="section-label">Featured Projects</p>
+      <h2 class="section-title">Full-stack builds, start to finish.</h2>
+
+      <div class="project-list">
+        <article class="project-row">
+          <div class="project-row-index">01</div>
+          <div class="project-row-body">
+            <h3>Fight Wisdom — MERN E-Commerce Store</h3>
+            <p>A modern e-commerce store built with React, Node, Express and MongoDB — featuring
+              product search, category filtering, a persistent cart system and secure REST APIs
+              for checkout and order handling.</p>
+            <ul class="project-tags">
+              <li>React</li>
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>MongoDB</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-row">
+          <div class="project-row-index">02</div>
+          <div class="project-row-body">
+            <h3>Preventive Maintenance Tracker</h3>
+            <p>A scheduled task management dashboard for equipment upkeep — alerting on due tasks,
+              generating maintenance reports, and tracking status checks across a facility, built
+              with HTML, CSS, JavaScript, Tailwind, PHP and MySQL.</p>
+            <ul class="project-tags">
+              <li>HTML/CSS/JS</li>
+              <li>Tailwind CSS</li>
+              <li>PHP</li>
+              <li>MySQL</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact" id="contact">
+    <div class="section-inner contact-grid">
+      <div class="contact-intro">
+        <p class="section-label">Contact</p>
+        <h2 class="section-title">Have a project in mind?</h2>
+        <p>Tell me a bit about what you're building and I'll get back to you — usually within a day.</p>
+
+        <ul class="contact-cards">
+          <li class="contact-card">
+            <span class="contact-card-label">Email</span>
+            <a href="mailto:gopikavadi3@gmail.com">gopikavadi3@gmail.com</a>
+          </li>
+          <li class="contact-card">
+            <span class="contact-card-label">Phone</span>
+            <a href="tel:+918639641523">+91 86396 41523</a>
+          </li>
+          <li class="contact-card">
+            <span class="contact-card-label">Location</span>
+            <span>Guntur, Andhra Pradesh, India</span>
+          </li>
+          <li class="contact-card">
+            <span class="contact-card-label">GitHub</span>
+            <a href="https://github.com/princeimmu40-collab" target="_blank" rel="noopener">princeimmu40-collab</a>
+          </li>
+        </ul>
+      </div>
+
+      <form class="contact-form" id="contact-form" novalidate>
+        <div class="form-field">
+          <label for="field-name">Name</label>
+          <input type="text" id="field-name" name="name" autocomplete="name" required>
+          <span class="form-error" id="error-name"></span>
+        </div>
+
+        <div class="form-field">
+          <label for="field-email">Email</label>
+          <input type="email" id="field-email" name="email" autocomplete="email" required>
+          <span class="form-error" id="error-email"></span>
+        </div>
+
+        <div class="form-field">
+          <label for="field-type">Project type</label>
+          <select id="field-type" name="projectType" required>
+            <option value="" disabled selected>Select a project type</option>
+            <option value="ecommerce">E-commerce store</option>
+            <option value="dashboard">Admin dashboard / internal tool</option>
+            <option value="website">Business website</option>
+            <option value="webapp">Custom web application</option>
+            <option value="other">Something else</option>
+          </select>
+          <span class="form-error" id="error-type"></span>
+        </div>
+
+        <div class="form-field">
+          <label for="field-message">Message</label>
+          <textarea id="field-message" name="message" rows="4" required></textarea>
+          <span class="form-error" id="error-message"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-full">Send message</button>
+        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="section-inner footer-inner">
+    <span>© <span id="year"></span> Kojja Gopi. Built by hand, no template.</span>
+    <a href="#top" class="footer-top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
